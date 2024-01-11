@@ -5,7 +5,7 @@ function AiPicker({ prompt, setPrompt, generatingImg, handleSubmit }) {
     <div className="aipicker-container">
       <textarea
         className="aipicker-textarea"
-        placeholder="Ask AI..."
+        placeholder="Ask AI...currently unavailable due to a lack of OpenAI API credits"
         rows={5}
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
