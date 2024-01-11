@@ -58,7 +58,7 @@ function Customizer() {
       setGeneratingImg(true);
 
       const response = await fetch(
-        "https://shirt-three.onrender.com/api/v1/dalle",
+        "https://threejs-mlpa.onrender.com/api/v1/dalle",
         {
           method: "POST",
           headers: {
